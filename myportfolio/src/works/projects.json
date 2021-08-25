@@ -1,0 +1,35 @@
+[{
+    "title": "Workout Tracker",
+    "githubLink": "https://github.com/krooksoma/WorkOutTracker",
+    "deployedSite": "https://safe-hollows-12551.herokuapp.com/?id=611dc917e052d90016de9651",
+    "className": "work-figure"
+},
+{
+    "title": "Clean Water Project",
+    "githubLink": "https://github.com/krooksoma/CleanWaterProject",
+    "deployedSite": "https://algae-busters-clean-water-proj.herokuapp.com/",
+    "className": "container1"
+
+},
+{
+    "title": "PWA Budget Manager",
+    "githubLink": "https://github.com/krooksoma/PWABudgetManager",
+    "deployedSite": "https://mysterious-anchorage-47746.herokuapp.com/",
+    "className": "container2"
+
+},
+{
+    "title": "National Park Search",
+    "githubLink": "https://github.com/krooksoma/NationalParkSearchWebSite",
+    "deployedSite": "https://krooksoma.github.io/NationalParkSearchWebSite/",
+    "className": "container3"
+
+},
+{
+    "title": "Team Profile Generator",
+    "githubLink": "https://github.com/krooksoma/teamProfileGenerator",
+    "deployedSite": "https://krooksoma.github.io/teamProfileGenerator/",
+    "className": "container4"
+
+}
+]
