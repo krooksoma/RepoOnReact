@@ -27,6 +27,8 @@
 
 ## Usage info
 [Deployed Application](https://krooksoma.github.io/RepoOnReact/)
+
+
     Navigate to the tabs and see all the information you want. On the works tab you can 
     also access the deployed pages and github for each of my projects..
 
