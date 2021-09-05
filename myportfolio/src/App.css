@@ -186,15 +186,14 @@ h3{
   margin: 0 auto;    
   height: 60vh;        
   background-image:linear-gradient(rgba(109, 108, 108, 0.5),
-  rgba(109, 108, 108, 0.5)) , url("./img/dumbel.jpeg"); 
-  box-shadow: 4px 4px 21px -12px rgba(218, 218, 218, 0.66);
-  border-radius: 10px;
+  rgba(109, 108, 108, 0.5)) , url("./img/funko.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;      
 }
 
 .work-figure:hover{
-  background-image: url("./img/dumbel.jpeg");
+  background-image: url("./img/funko.jpg");
 }
 
 
@@ -210,9 +209,7 @@ h3{
   height: 30vh;     
  background-image: linear-gradient(rgba(109, 108, 108, 0.5),
   rgba(109, 108, 108, 0.5)), url("./img/fl-spring.jpeg");
-  background-position: center;
-  box-shadow: 4px 4px 21px -12px rgba(218, 218, 218, 0.66);
-  border-radius: 10px;
+  background-position: center; 
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -226,8 +223,6 @@ h3{
   height: 30vh;         
   background-image: linear-gradient(rgba(109, 108, 108, 0.5),
    rgba(109, 108, 108, 0.5)),url("./img/budget.jpg");
-   box-shadow: 4px 4px 21px -12px rgba(218, 218, 218, 0.76);
-   border-radius: 10px;
    background-position: center; 
    background-size: cover;
    background-repeat: no-repeat;
@@ -242,9 +237,7 @@ h3{
   height: 30vh;    
   background-image: linear-gradient(rgba(109, 108, 108, 0.5), 
   rgba(109, 108, 108, 0.5)),url("./img/npark.jpg");
-  box-shadow: 4px 4px 21px -12px rgba(218, 218, 218, 0.66);
-  border-radius: 10px;
-  background-position: center; 
+ background-position: center; 
   background-size: cover; 
   background-repeat: no-repeat;     
 }
@@ -256,17 +249,15 @@ h3{
 .container4{
   margin: 0 auto;    
   height: 30vh;   
-  background-image: linear-gradient(rgba(109, 108, 108, 0.5), 
-  rgba(109, 108, 108, 0.5)), url("./img/team.jpg"); 
-  box-shadow: 4px 4px 21px -12px rgba(218, 218, 218, 0.66);
-  border-radius: 10px; 
-  background-position: center;
+  background-image:linear-gradient(rgba(109, 108, 108, 0.5),
+  rgba(109, 108, 108, 0.5)) , url("./img/dumbel.jpeg"); 
+   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;     
 }
 
 .container4:hover{
-  background-image: url("./img/team.jpg");
+  background-image: url("./img/dumbel.jpeg");
 }
 
 /* --------last section------ */
@@ -282,6 +273,44 @@ h3{
   width: 5vh;    
 }
 
+.d-parent{
+  perspective: 90px;
+  -webkit-perspective: 90px;     
+}
+
+
+.d-card{
+  cursor: pointer;  
+  transition: .5s all ease; 
+  transform: rotateX(45deg) scale(0.7);  
+}
+
+.d-card:hover{
+  cursor: pointer;
+  transform: rotate(0deg) scale(1);
+  transition: .5s all ease;  
+  z-index: 400;  
+}
+
+.d-card-2{
+  cursor: pointer;  
+  transition: .5s all ease; 
+  transform: rotateX(45deg) scale(0.7);  
+  position:absolute;  
+}
+
+.d-card-2:hover{
+  cursor: pointer;
+  transform: rotate(0deg) scale(1);
+  transition: .5s all ease;  
+  z-index: 400;
+  margin-bottom: 15px; 
+}
+
+.rotate{
+  -webkit-animation: rotation 12s linear infinite;
+  animation: rotation 12s linear infinite;
+}
 
 /* ----mobile platform compatibility section--- */
 
@@ -296,8 +325,7 @@ h3{
       flex-direction: column;
   }
 
-  .background-image{
-      background-image: url("./img/Me.jpg");
+  .background-image{      
       background-repeat: no-repeat;
       background-position: 0 10%;
   }

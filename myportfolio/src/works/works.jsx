@@ -15,9 +15,9 @@ function Works() {
         </div>
         {projects.map((e, index) =>
           index === 0 ? (
-            <div className="work-picture" key={index}>
-              <div className="custom-link">
+            <div className="work-picture d-parent" key={index}>
                 <h2>Most Recent Work</h2>
+              <div className="custom-link d-card">
                 <figure
                   className={e.className}
                   id="work"
@@ -41,7 +41,7 @@ function Works() {
             </div>
             
           ) : (
-            <div className="container m-5">              
+            <div className="container m-5  d-parent">
               <div className="row">
                 <AProjects
                   imageClass={e.className}

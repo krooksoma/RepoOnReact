@@ -19,11 +19,13 @@ export default function Resume() {
         <div className="row justify-content-center m-4 align-items-center">
           <h2 className="card-title">Languages: </h2>
           <img
+           className="rotate"
             src={Java}
             style={{ maxHeight: "16rem", maxWidth: "18rem" }}
             alt="java"
           ></img>
           <img
+           className="rotate"
             src={Js}
             style={{ maxHeight: "20rem", maxWidth: "18rem" }}
             alt="java"

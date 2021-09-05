@@ -37,7 +37,7 @@ function App() {
                     ABOUT ME
                   </Link>
                   <Link to="/works" className="nav-item nav-link">
-                    WORK
+                    WORKS
                   </Link>
                   <Link to="/contact" className="nav-item nav-link">
                     CONTACT

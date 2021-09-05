@@ -1,7 +1,7 @@
 [{
-    "title": "Workout Tracker",
-    "githubLink": "https://github.com/krooksoma/WorkOutTracker",
-    "deployedSite": "https://safe-hollows-12551.herokuapp.com/?id=611dc917e052d90016de9651",
+    "title": "Do you Even Funko?",
+    "githubLink": "https://github.com/krooksoma/DoyouEvenFunko",
+    "deployedSite": "https://guarded-sierra-75793.herokuapp.com/",
     "className": "work-figure"
 },
 {
@@ -26,9 +26,9 @@
 
 },
 {
-    "title": "Team Profile Generator",
-    "githubLink": "https://github.com/krooksoma/teamProfileGenerator",
-    "deployedSite": "https://krooksoma.github.io/teamProfileGenerator/",
+    "title": "Workout Tracker",
+    "githubLink": "https://github.com/krooksoma/WorkOutTracker",
+    "deployedSite": "https://safe-hollows-12551.herokuapp.com/?id=611dc917e052d90016de9651",
     "className": "container4"
 
 }
