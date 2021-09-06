@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/RepoOnReact/static/css/main.acb24890.chunk.css",
-    "main.js": "/RepoOnReact/static/js/main.00ecfc39.chunk.js",
-    "main.js.map": "/RepoOnReact/static/js/main.00ecfc39.chunk.js.map",
+    "main.css": "/RepoOnReact/static/css/main.41a6f8b8.chunk.css",
+    "main.js": "/RepoOnReact/static/js/main.89a210ec.chunk.js",
+    "main.js.map": "/RepoOnReact/static/js/main.89a210ec.chunk.js.map",
     "runtime-main.js": "/RepoOnReact/static/js/runtime-main.8f94c5d9.js",
     "runtime-main.js.map": "/RepoOnReact/static/js/runtime-main.8f94c5d9.js.map",
     "static/css/2.818011ed.chunk.css": "/RepoOnReact/static/css/2.818011ed.chunk.css",
@@ -12,17 +12,17 @@
     "static/js/3.4d87f3de.chunk.js.map": "/RepoOnReact/static/js/3.4d87f3de.chunk.js.map",
     "index.html": "/RepoOnReact/index.html",
     "static/css/2.818011ed.chunk.css.map": "/RepoOnReact/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.acb24890.chunk.css.map": "/RepoOnReact/static/css/main.acb24890.chunk.css.map",
+    "static/css/main.41a6f8b8.chunk.css.map": "/RepoOnReact/static/css/main.41a6f8b8.chunk.css.map",
     "static/js/2.da5fe9ea.chunk.js.LICENSE.txt": "/RepoOnReact/static/js/2.da5fe9ea.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/RepoOnReact/static/media/team.6f5b67cc.jpg",
-    "static/media/java.8df75460.png": "/RepoOnReact/static/media/java.8df75460.png",
-    "static/media/resume.50289e42.pdf": "/RepoOnReact/static/media/resume.50289e42.pdf"
+    "static/media/App.css": "/RepoOnReact/static/media/npark.412fabe7.jpg",
+    "static/media/Me.9254370e.jpg": "/RepoOnReact/static/media/Me.9254370e.jpg",
+    "static/media/resume.81896d77.pdf": "/RepoOnReact/static/media/resume.81896d77.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.8f94c5d9.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.da5fe9ea.chunk.js",
-    "static/css/main.acb24890.chunk.css",
-    "static/js/main.00ecfc39.chunk.js"
+    "static/css/main.41a6f8b8.chunk.css",
+    "static/js/main.89a210ec.chunk.js"
   ]
 }
