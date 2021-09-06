@@ -64,18 +64,31 @@ h1{
 
 h2{
   font-size: 4rem;
-  text-shadow: 5px 2px #000;
 }
 
 h3{
   font-size: 3rem;
   font-weight: bold;
-  margin: 1rem;
-  text-shadow: 2px 2px var(--dark);
+  margin: 1rem;  
 }
 .nav-link{
   color: var(--complementary) !important;
 }
+
+.nav-link:hover{  
+  color: var(--secondary) !important;  
+}
+.nav-link-2{
+  color: black !important;
+  font-weight: bold;
+}
+
+.nav-link-2:hover{
+  font-size:larger;
+  color: rgb(221, 20, 221) !important;
+  font-weight: bold;
+}
+
 
 .custom-link{
   text-decoration: none;
@@ -83,17 +96,17 @@ h3{
   font-weight: bold;
 }
 
-#navHighlight{
-  text-shadow: 2px 3px 3px green;
+.card-custom{
+  background-color: var(--secondary) !important;
 }
+
 
 
 /* -------Header section style----- */
 
 .logo h1{
   padding: 1.5rem;    
-  width: 100%;    
-  text-shadow: 3px 3px 5px black;
+  width: 100%;  
 }
 
 
@@ -118,9 +131,7 @@ h3{
 }
 
 .background-image img{
-  height: 30vh;
-  box-shadow:
-  0 0 12px 12px #000;
+  height: 30vh; 
   position: relative;
   right: -1.5rem;    
 }
@@ -135,7 +146,6 @@ h3{
   margin: 0 auto;
   padding: 2rem;
   justify-content: center;
-  align-items:center;
 }
 
 .about-title {
@@ -197,13 +207,6 @@ h3{
 }
 
 
-.small-container {
- height: 70vh;
- margin: 0 auto;
- padding: 1rem 0;         
-}
-
-
 .container1{
   margin: 0 auto;    
   height: 30vh;     
@@ -248,10 +251,10 @@ h3{
 
 .container4{
   margin: 0 auto;    
-  height: 30vh;   
+  height: 50vh;   
   background-image:linear-gradient(rgba(109, 108, 108, 0.5),
   rgba(109, 108, 108, 0.5)) , url("./img/dumbel.jpeg"); 
-   background-position: center;
+   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;     
 }
@@ -274,8 +277,8 @@ h3{
 }
 
 .d-parent{
-  perspective: 90px;
-  -webkit-perspective: 90px;     
+  perspective: 700px;
+  -webkit-perspective: 700px;     
 }
 
 
@@ -295,15 +298,14 @@ h3{
 .d-card-2{
   cursor: pointer;  
   transition: .5s all ease; 
-  transform: rotateX(45deg) scale(0.7);  
-  position:absolute;  
+  transform: rotateX(45deg) scale(0.7);     
 }
 
 .d-card-2:hover{
   cursor: pointer;
   transform: rotate(0deg) scale(1);
   transition: .5s all ease;  
-  z-index: 400;
+  z-index: 900;
   margin-bottom: 15px; 
 }
 
@@ -311,6 +313,18 @@ h3{
   -webkit-animation: rotation 12s linear infinite;
   animation: rotation 12s linear infinite;
 }
+
+@keyframes rotation {
+  0%{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform: rotatey(359deg);
+    transform: rotatey(359deg);
+  }
+}
+
 
 /* ----mobile platform compatibility section--- */
 

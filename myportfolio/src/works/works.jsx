@@ -21,7 +21,7 @@ function Works() {
                 <figure
                   className={e.className}
                   id="work"
-                  alt="Team Profile Generator"
+                  alt="Do you even funko"
                 >
                   <h3 id="most-recent-title" style={{fontSize: "6rem"}}>{e.title}</h3>
                   <a
@@ -41,7 +41,7 @@ function Works() {
             </div>
             
           ) : (
-            <div className="container m-5  d-parent">
+            <div className="container m-0 d-parent">
               <div className="row">
                 <AProjects
                   imageClass={e.className}

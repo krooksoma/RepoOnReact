@@ -3,6 +3,9 @@ import React from "react";
 export default function Homepage() {
   return (
     <>
+    <section className="background-image">
+          <h2> Problem Solving Simplified</h2>
+        </section>
       <figure class="text-center">
         <blockquote
           className="blockquote fst-italic fw-light m-3"
