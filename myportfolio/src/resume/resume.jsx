@@ -25,17 +25,17 @@ export default function Resume() {
       <div className="container">
         <div className="col m-3">
           <div className="row">
-            <div className="card m-2 card-custom" style={{ maxWidth: "20rem" }}>
-              <h2 className="card-title border-bottom p-2">
+            <div className="card m-2 card-custom" style={{ maxWidth: "25rem" }}>
+              <h3 className="card-title border-bottom p-2">
                 Front-end Technologies
-              </h2>
+              </h3>
               <div className="card-text p-2 fs-2">
                 <p>HTML-5 & CSS-3</p>
                 <p>REACT</p>
               </div>
             </div>
-          <div className="card m-2 card-custom" style={{ maxWidth: "20rem" }}>
-            <h2 className="card-title border-bottom p-2">Back-end Technologies</h2>
+          <div className="card m-2 card-custom" style={{ maxWidth: "25rem" }}>
+            <h3 className="card-title border-bottom p-2">Back-end Technologies</h3>
             <div className="card-text p-2 fs-2">
               <p>Node.js</p>
               <p>MongoDB</p>
