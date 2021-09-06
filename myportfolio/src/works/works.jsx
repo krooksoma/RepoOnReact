@@ -15,13 +15,13 @@ function Works() {
         </div>
         {projects.map((e, index) =>
           index === 0 ? (
-            <div className="work-picture" key={index}>
-              <div className="custom-link">
+            <div className="work-picture d-parent" key={index}>
                 <h2>Most Recent Work</h2>
+              <div className="custom-link d-card">
                 <figure
                   className={e.className}
                   id="work"
-                  alt="Team Profile Generator"
+                  alt="Do you even funko"
                 >
                   <h3 id="most-recent-title" style={{fontSize: "6rem"}}>{e.title}</h3>
                   <a
@@ -41,7 +41,7 @@ function Works() {
             </div>
             
           ) : (
-            <div className="container m-5">              
+            <div className="container m-0 d-parent">
               <div className="row">
                 <AProjects
                   imageClass={e.className}

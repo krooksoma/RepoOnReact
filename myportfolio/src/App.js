@@ -18,12 +18,12 @@ function App() {
   return (
     <>
       <Router>
-        <header className="container-fluid">
+        <header className="container-fluid bg-transparent">
           <div className="logo">
             <h1 style={{ fontSize: "5rem" }}>Romulo Goncalves</h1>
           </div>
           <div className="jumbotron jumbotron-fluid">
-            <div className="container">
+            <div className="container border-bottom custom-border">
               <div className="navbar navbar-expand-lg">
                 <ul className="navbar-nav mr-auto fs-2">
                   <Link to="/" className="nav-item nav-link">
@@ -37,7 +37,7 @@ function App() {
                     ABOUT ME
                   </Link>
                   <Link to="/works" className="nav-item nav-link">
-                    WORK
+                    WORKS
                   </Link>
                   <Link to="/contact" className="nav-item nav-link">
                     CONTACT
@@ -54,11 +54,6 @@ function App() {
             </div>
           </div>
         </header>
-        <section className="background-image">
-          <h2> Problem Solving Simplified</h2>
-        </section>
-
-
         <Switch>
           <Route path="/works">
             <Works />
