@@ -20,25 +20,24 @@ function Main() {
               <p className="card-text fs-4">
                 &nbsp;&nbsp;&nbsp;&nbsp;Full-Stack Software Developer with
                 experience helping companies optimize projects planning and
-                execution focused on optimization and adaptability to customer
+                execution focused on adaptability to customer
                 needs. My passion for programming aligned with my previous
-                experience managing highly demanding projects creates a combo
-                where I can know how to approach a project on every step of its
-                implementation. I pride myself on being a strong team member
-                because I like to work in an environment where everyone wants to
-                win and they support each other on every step. I love to take on
-                a challenge to learn something new in every possible situation
-                and I feel highly motivated throughout the process and when I am
-                successful. <br></br>
+                experience managing demanding projects has taught me
+                 how to approach a project at each unique step of its
+                implementation. I pride myself on being a strong team player
+                and seeking new challenges on a routine basis. These two traits are 
+                important to me because I love to work in an environment where everyone wants to
+                win and because I am always striving for continuous improvement. 
+                 <br></br>
                 &nbsp;&nbsp;&nbsp;&nbsp;I have a Full Stack Web Developer
-                certificate from the University of Central Florida, a bachelor's
+                certificate from the University of Central Florida, a doctorate
                 degree in Veterinary Medicine from Universidade Federal de
                 Goiás, Brazil, and I am seeking a
-                bachelor’s degree in Software Design and Development on Valencia. I plan to
-                expand my knowledge by further increasing my knowledge on Java
+                bachelor’s degree in Software Design and Development at Valencia. I plan to
+                expand my knowledge by further increasing my knowledge in Java
                 with a Certification and learning to work with cloud services
-                such as Amazon or Oracle. I decided on this path because I want
-                to grow exponentially and IT is an ever-increasing field with
+                such as Amazon or Oracle. My motivation for choosing this path is based
+                on my desire to grow exponentially and the knowledge that IT is an ever-increasing field with
                 endless opportunities.
               </p>
             </div>
