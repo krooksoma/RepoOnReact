@@ -46,7 +46,7 @@
 
 ## Questions
     For questions please refer to 
-![Linkedin](https://www.linkedin.com/in/romulo-goncalves-45602539/)  
+[Linkedin](https://www.linkedin.com/in/romulo-goncalves-45602539/)  
     or
     romulojusto@gmail.com
     
