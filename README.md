@@ -1,9 +1,7 @@
 ![badge](https://img.shields.io/static/v1?label=license&message=MIT&color=<green>)
 
 # Portfolio on React
-
-
-    
+[Link to Deployed Application](https://krooksoma.github.io/RepoOnReact/)    
     
 
 ## Table of Contents
@@ -15,20 +13,25 @@
 [Testing Instructions](#test-instructions)
 [License](#license)
 [Questions](#questions)
+[Tools and Technologies](#tools-and-technologies)
 
 ![Screenshot](./myportfolio/public/screenshot.png)
     
 
 ## Description
-    My new portfolio developed with React.js.
+    My new portfolio developed with React.js to display my latest completed projects.
+    
+##Tools and technologies
+
+* REACT
+* HTML
+* CSS
+* JavaScript
 
 ## Installation Instructions
-    Now installation necessary.
+    No installation necessary.
 
 ## Usage info
-[Deployed Application](https://krooksoma.github.io/RepoOnReact/)
-
-
     Navigate to the tabs and see all the information you want. On the works tab you can 
     also access the deployed pages and github for each of my projects..
 
@@ -43,7 +46,7 @@
 
 ## Questions
     For questions please refer to 
-    ![link](https://github.comundefined)  
+![link](https://github.com/krooksoma)  
     or
     romulojusto@gmail.com
     
