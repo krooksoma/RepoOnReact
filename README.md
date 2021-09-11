@@ -21,7 +21,7 @@
 ## Description
     My new portfolio developed with React.js to display my latest completed projects.
     
-##Tools and technologies
+## Tools and technologies
 
 * REACT
 * HTML
@@ -46,7 +46,7 @@
 
 ## Questions
     For questions please refer to 
-![link](https://github.com/krooksoma)  
+![Linkedin](https://www.linkedin.com/in/romulo-goncalves-45602539/)  
     or
     romulojusto@gmail.com
     
